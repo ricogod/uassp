@@ -96,7 +96,7 @@ void changeDegree(){
     // if(currentEnc < desiredEncoder){
     //   motorSpeed = 128;
     // }
-    Serial.print("45 deg ");
+    Serial.print("90 deg ");
     delay(1000);
   }
   
@@ -110,7 +110,7 @@ void changeDegree(){
     else{
       desiredEncoder =rnEnc-1697;
     }
-    Serial.print("90 deg ");
+    Serial.print("180 deg ");
     delay(1000);
   }
  
